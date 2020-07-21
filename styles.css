@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(https://images.unsplash.com/photo-1507398941214-572c25f4b1dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1266&q=80);
+    color: white;
+    font-family: 'Balthazar', serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* HEADER */
+
+/* Left side of header / logo */
+.left {
+    /* border: 2px solid aqua; */
+    display: inline-block;
+    position: absolute;
+    left: 65px;
+    top: 20px;
+    text-align: center;
+    line-height: 10px;
+    padding: 5px;
+    margin: 0;
+}
+
+/* Logo Image */
+.left img {
+    width: 60px;
+    filter: invert(100%);
+}
+
+/* Text under logo Image */
+.left div {
+    font-size: 22px;
+    font-family: 'Balthazar', serif;
+}
+
+/* CTA - Buttons Area - Header*/
+.right {
+    /* border: 2px solid seagreen; */
+    position: absolute;
+    right: 60px;
+    top: 35px;
+    display: inline-block;
+}
+
+/* CTA - Buttons Styles in Header*/
+.btn {
+    margin: 0 10px;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 55px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Balthazar', serif;
+}
+
+.btn:hover {
+    background-color: rgb(41, 41, 41);
+}
+
+
+/* Navbar - Center */
+.mid {
+    /* border: 2px solid beige; */
+    width: 40%;
+    margin: 30px auto;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 22px;
+    padding: 5px 25px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Active Nav Option */
+.navbar li a:hover, .navbar li a.active {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 3px;
+}
+
+
+/* Content */
+.container {
+    background: linear-gradient(rgb(0, 0, 0, .5), rgb(0, 0, 0, .5));
+    border: 2px solid #fff;
+    margin: 120px 55px;
+    padding: 50px;
+    width: 40%;
+    border-radius: 10px;
+}
+
+/* Form Heading */
+.container h1 {
+    text-align: center;
+}
+
+/* Form  */
+.container form {
+    margin: 50px 0;
+}
+.form-item input {
+    text-align: center;
+    display: block;
+    width: 40%;
+    padding: 10px;
+    margin: 20px auto;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+}
+
+/* Form Submit Button */
+.container form button{
+    display: block;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
