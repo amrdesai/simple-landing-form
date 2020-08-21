@@ -1,2 +1,2 @@
-# simple-landing-form
-Simple landing page with form, no media queries. 
+# Simple Landing Form Page for Businesses
+
