@@ -1,4 +1,4 @@
-# Landing Form Page for Businesses
+# Landing Page for Businesses with Form
 
 [View Page](https://amrdesai.github.io/simple-landing-form/)
 
